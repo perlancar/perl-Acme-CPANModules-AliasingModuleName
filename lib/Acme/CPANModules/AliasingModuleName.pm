@@ -1,10 +1,14 @@
 package Acme::CPANModules::AliasingModuleName;
 
+use strict;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
-    summary => 'Aliasing a (long) module name to another (shorter) name',
+    summary => 'List of modules to alias a (long) module name to another (shorter) name',
     tags => ['task'],
     entries => [
         {
